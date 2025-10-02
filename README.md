@@ -1,4 +1,4 @@
-# Algorithms
+# Welcome
 
 This repository contains my solutions and study notes for algorithm problems.  
 
