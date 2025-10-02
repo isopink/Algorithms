@@ -14,7 +14,5 @@ It is mainly used to practice coding skills and prepare for coding interviews.
 
 ## References
 - *Introduction to Algorithms* (CLRS, 3rd Edition)  
-- *The Algorithm Design Manual* (3rd Edition)  
+- *Algorithm Design Manual* (Steven S.Skiena, 3rd Edition)  
 - [Encrypted Blog - 알고리즘 관련 글 모음](https://blog.encrypted.gg/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
-
----
