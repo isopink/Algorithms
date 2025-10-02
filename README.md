@@ -4,7 +4,7 @@ This repository contains my solutions and study notes for algorithm problems.
 
 
 ## Contents
-- Baekjoon Online Judge problem solutions (auto-uploaded via [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub))
+- Baekjoon Online Judge problem solutions 
 - Classic data structures (stack, queue, linked list, tree, graph, etc.)
 - Algorithms (sorting, searching, dynamic programming, greedy, graph traversal, etc.)
 
