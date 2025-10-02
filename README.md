@@ -1,7 +1,6 @@
 # Algorithms
 
 This repository contains my solutions and study notes for algorithm problems.  
-It is mainly used to practice coding skills and prepare for coding interviews.
 
 
 ## Contents
