@@ -1,30 +1,30 @@
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{   
-ios::sync_with_stdio(false);
-    cin.tie(0);
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-    int num,k;
-    int room = 0;
-    int arr[2][6] = {0}; 
+    int N, K;
+    cin >> N >> K;
 
-    cin >> num >> k;
-    
-    for(int i =0; i<num; i++)
-        {
-            int a,b;
-            cin >> a >> b;
-            arr[a][b-1]++;
-        }
-    for(int i =0; i<2; i++)
-    {
-        for(int j = 0; j<6; j++)
-        {
-            room += arr[i][j]/k + arr[i][j]%k;
+    int cnt[2][7] = {0}; // [성별][학년] (성별:0,1 / 학년:1~6)
+
+    for (int i = 0; i < N; i++) {
+        int s, y;
+        cin >> s >> y; // 성별, 학년
+        cnt[s][y]++;
+    }
+
+    int rooms = 0;
+    for (int s = 0; s < 2; s++) {
+        for (int y = 1; y <= 6; y++) {
+            if (cnt[s][y] > 0) {
+                rooms += (cnt[s][y] + K - 1) / K; // 올림
+            }
         }
     }
 
-        cout << room; 
+    cout << rooms << "\n";
+    return 0;
 }
